@@ -7,7 +7,7 @@ class Gria < Formula
     for line in c.split("\n") do
       k = line.slice(0, 64)
       v = line.slice(66..-1)
-      if v.include?("Darwin")
+      if v.include?("darwin")
         return k
       end
     end
