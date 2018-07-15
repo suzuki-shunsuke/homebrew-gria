@@ -11,7 +11,7 @@ class Gria < Formula
         return k
       end
     end
-    raise "checksum is not found"
+    raise "checksum is not found: #{c}"
   end
 
   def self.get_sha256
